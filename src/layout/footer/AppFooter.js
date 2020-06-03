@@ -1,9 +1,5 @@
 import React from "react";
 
-import { Layout, Menu } from "antd";
-
-const { Footer } = Layout;
-
 function AppHeader() {
   return (
     <footer id="footer">
@@ -11,7 +7,7 @@ function AppHeader() {
         <div className="copyright">
           &copy; Copyright{" "}
           <strong>
-            <span>Kelly</span>
+            <span>Andrey</span>
           </strong>
           . All Rights Reserved
         </div>

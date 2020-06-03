@@ -7,6 +7,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "antd/dist/antd.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./assets/icofont/icofont.min.css";
 //import "bootstrap/dist/js/bootstrap.bundle.min"; // only if behavior is required: will need jquery and popper.js
 
 console.log(process.env.REACT_APP_TEST_VAR);
