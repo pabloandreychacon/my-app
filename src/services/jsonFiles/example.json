@@ -1,0 +1,29 @@
+[
+  {
+    "key": "1",
+    "Area": "AFO BCD",
+    "IPN": "500099929",
+    "Part Description": "GENSOLVE 470",
+    "Lot": "97806518B03A",
+    "Born on Date": "2020-04-30",
+    "Status": "Active"
+  },
+  {
+    "key": "2",
+    "Area": "AFO BCD",
+    "IPN": "500099929",
+    "Part Description": "GENSOLVE 471",
+    "Lot": "97806518B03A",
+    "Born on Date": "2020-04-30",
+    "Status": "Active"
+  },
+  {
+    "key": "3",
+    "Area": "AFO BCD",
+    "IPN": "500099929",
+    "Part Description": "GENSOLVE ACID 50%",
+    "Lot": "97806518B03B",
+    "Born on Date": "2020-04-29",
+    "Status": "Inactive"
+  }
+]

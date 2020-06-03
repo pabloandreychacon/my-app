@@ -1,22 +1,22 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-//import logo from "./logo.svg";
+import { BrowserRouter } from "react-router-dom";
+
+import "./assets/scss/Main.scss";
 import "./App.scss";
 
-import GlobalState from "./context/GlobalState";
-import Products from "./pages/Products";
-import Cart from "./pages/Cart";
+import State from "./context/State";
+//import Products from "./views/Products";
+//import Cart from "./views/Cart";
+
+import Main from "./layout/main/Main";
 
 function App() {
   return (
-    <GlobalState>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" component={Products} exact />
-          {<Route path="/cart" component={Cart} exact />}
-        </Switch>
-      </BrowserRouter>
-    </GlobalState>
+    <BrowserRouter>
+      <State>
+        <Main />
+      </State>
+    </BrowserRouter>
   );
 }
 
