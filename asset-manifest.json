@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.4a1fabd3.chunk.css",
+    "main.js": "/my-app/static/js/main.ecc89497.chunk.js",
+    "main.js.map": "/my-app/static/js/main.ecc89497.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.56c001b7.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.56c001b7.js.map",
+    "static/css/2.b7e16ca0.chunk.css": "/my-app/static/css/2.b7e16ca0.chunk.css",
+    "static/js/2.4192a6bd.chunk.js": "/my-app/static/js/2.4192a6bd.chunk.js",
+    "static/js/2.4192a6bd.chunk.js.map": "/my-app/static/js/2.4192a6bd.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.a630b19171fa37547adf7ca3c2dbab9b.js": "/my-app/precache-manifest.a630b19171fa37547adf7ca3c2dbab9b.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.b7e16ca0.chunk.css.map": "/my-app/static/css/2.b7e16ca0.chunk.css.map",
+    "static/css/main.4a1fabd3.chunk.css.map": "/my-app/static/css/main.4a1fabd3.chunk.css.map",
+    "static/js/2.4192a6bd.chunk.js.LICENSE.txt": "/my-app/static/js/2.4192a6bd.chunk.js.LICENSE.txt",
+    "static/media/Main.scss": "/my-app/static/media/hero-bg.3972b311.jpg",
+    "static/media/icofont.min.css": "/my-app/static/media/icofont.f6ab04ae.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56c001b7.js",
+    "static/css/2.b7e16ca0.chunk.css",
+    "static/js/2.4192a6bd.chunk.js",
+    "static/css/main.4a1fabd3.chunk.css",
+    "static/js/main.ecc89497.chunk.js"
+  ]
+}
