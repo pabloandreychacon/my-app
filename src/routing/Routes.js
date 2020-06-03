@@ -3,6 +3,7 @@ import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import Home from "../views/home/Home";
+import About from "../views/about/About";
 //import LatestNews from "./views/LatestNews";
 import NotFound from "../views/notFound/NotFound";
 // *********** Worstation ******************//
@@ -24,6 +25,9 @@ export class Routes extends React.Component {
       <Switch>
         <Route exact path="/Home">
           <Home />
+        </Route>
+        <Route exact path="/About">
+          <About />
         </Route>
         <Route exact path="/">
           <Redirect to="/Home" />
