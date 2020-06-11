@@ -70,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 npm install react-router-dom --save
 npm install node-sass --save
 npm install --save bootstrap
+
+https://yosoy.dev/deploy-de-una-aplicacion-react-a-github-pages/
+npm run deploy
