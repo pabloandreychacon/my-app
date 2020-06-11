@@ -10,7 +10,7 @@ function AppHeader() {
       <header id="header" className="fixed-top">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <h1 className="logo">
-            <a href="/">Andrey</a>
+            <NavLink to="/">Andrey</NavLink>
           </h1>
 
           <nav className="navbar navbar-expand-lg navbar-light nav-menu">
@@ -42,24 +42,24 @@ function AppHeader() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link" to="/Resume">
                     Resume
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link" to="/Services">
                     Services
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link" to="/Portfolio">
                     Portfolio
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link" to="/Contact">
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item dropdown">
                   <a
@@ -77,16 +77,16 @@ function AppHeader() {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="/Home">
                       React Samples
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </NavLink>
+                    <NavLink className="dropdown-item" to="/Home">
                       Angular Samples
-                    </a>
+                    </NavLink>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="/Home">
                       Other samples
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
               </ul>

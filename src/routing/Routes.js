@@ -4,6 +4,10 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import Home from "../views/home/Home";
 import About from "../views/about/About";
+import Resume from "../views/resume/Resume";
+import Services from "../views/services/Services";
+import Portfolio from "../views/portfolio/Portfolio";
+import Contact from "../views/contact/Contact";
 //import LatestNews from "./views/LatestNews";
 import NotFound from "../views/notFound/NotFound";
 // *********** Worstation ******************//
@@ -28,6 +32,18 @@ export class Routes extends React.Component {
         </Route>
         <Route exact path="/About">
           <About />
+        </Route>
+        <Route exact path="/Resume">
+          <Resume />
+        </Route>
+        <Route exact path="/Services">
+          <Services />
+        </Route>
+        <Route exact path="/Portfolio">
+          <Portfolio />
+        </Route>
+        <Route exact path="/Contact">
+          <Contact />
         </Route>
         <Route exact path="/">
           <Redirect to="/Home" />

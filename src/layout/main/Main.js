@@ -9,10 +9,8 @@ function Main() {
   return (
     <>
       <AppHeader />
-      <main>
-        <section id="hero" className="d-flex align-items-center">
-          <Routes />
-        </section>
+      <main id="main">
+        <Routes />
       </main>
       <AppFooter />
       <BackToTopArrow />

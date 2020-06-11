@@ -12,7 +12,10 @@ function AppHeader() {
           . All Rights Reserved
         </div>
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed using{" "}
+          <a href="https://reactjs.org/" target="_blank">
+            ReactJs
+          </a>
         </div>
       </div>
     </footer>
