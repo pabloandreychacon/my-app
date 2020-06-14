@@ -17,7 +17,7 @@ const Home = (props) => {
         return { ...prevState, loading: false }
       });
     }, 1000);
-    //return () => clearTimeout(timer);
+    return () => clearTimeout(timer);
 
   }, []);
 
