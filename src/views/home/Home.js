@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 //import Carousel from "./components/Carousel/index";
 //import Indicators from "./components/Indicators/index";
 //import News from "./components/News/index";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Spin } from 'antd';
 
 const Home = (props) => {
+  const [state, setState] = useState({
+    loading: true
+  })
+
+  useEffect(() => {
+
+    const timer = setTimeout(() => {
+      setState(prevState => {
+        return { ...prevState, loading: false }
+      });
+    }, 1000);
+    //return () => clearTimeout(timer);
+
+  }, []);
+
   return (
-    <section id="hero" className="d-flex align-items-center">
-      <div
-        className="container d-flex flex-column align-items-center"
-        data-aos="zoom-in"
-        data-aos-delay="100"
-      >
-        <h1>Andrey Chacon Luna</h1>
-        <h2>I'm a software developer from Costa Rica</h2>
-        <NavLink to="/About" className="btn-about">
-          About Me
+    <Spin spinning={state.loading}>
+      <section id="hero" className="d-flex align-items-center">
+        <div
+          className="container d-flex flex-column align-items-center"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <h1>Andrey Chacon Luna</h1>
+          <h2>I'm a software developer from Costa Rica</h2>
+          <NavLink to="/About" className="btn-about">
+            About Me
         </NavLink>
-      </div>
-    </section>
+        </div>
+      </section>
+    </Spin>
   );
 };
 

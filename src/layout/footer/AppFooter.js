@@ -13,7 +13,7 @@ function AppHeader() {
         </div>
         <div className="credits">
           Designed using{" "}
-          <a href="https://reactjs.org/" target="_blank">
+          <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
             ReactJs
           </a>
         </div>
