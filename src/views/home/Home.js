@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-//import Carousel from "./components/Carousel/index";
-//import Indicators from "./components/Indicators/index";
-//import News from "./components/News/index";
+
 import { NavLink } from "react-router-dom";
 import { Spin } from 'antd';
 
@@ -13,10 +11,14 @@ const Home = (props) => {
   useEffect(() => {
 
     const timer = setTimeout(() => {
-      setState(prevState => {
+      /* setState(prevState => {
         return { ...prevState, loading: false }
-      });
-    }, 1000);
+      }); */
+      setState(() => ({
+        ...state,
+        loading: false,
+      }));
+    }, 500);
     return () => clearTimeout(timer);
 
   }, []);
